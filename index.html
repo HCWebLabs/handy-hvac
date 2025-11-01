@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mike Johnson - Licensed HVAC & Handyman specialist in LaFollette, TN. 15+ years experience. Fast, reliable service. Call (555) 123-4567 for same-day service.">
+    <meta name="keywords" content="HVAC LaFollette TN, handyman LaFollette, air conditioning repair, furnace repair, home repair LaFollette Tennessee">
+    <meta name="theme-color" content="#1a1a2e">
+    <meta name="author" content="Mike Johnson">
+    <meta name="geo.region" content="US-TN">
+    <meta name="geo.placename" content="LaFollette, Tennessee">
+    <title>Mike Johnson HVAC & Handyman | LaFollette, TN | Licensed & Certified</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mike Johnson - HVAC & Handyman Services - LaFollette, TN">
+    <meta property="og:description" content="Licensed HVAC & handyman professional serving LaFollette and surrounding areas. 15+ years experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Preload critical assets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Mike Johnson HVAC & Handyman",
+        "image": "",
+        "@id": "",
+        "url": "",
+        "telephone": "+1-555-123-4567",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "",
+            "addressLocality": "LaFollette",
+            "addressRegion": "TN",
+            "postalCode": "37766",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 36.3828,
+            "longitude": -84.1199
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "sameAs": [],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "47"
+        }
+    }
+    </script>
+    
+    <style>
+        /* View Transitions API Support */
+        @view-transition {
+            navigation: auto;
+        }
+        
+        ::view-transition-old(root),
+        ::view-transition-new(root) {
+            animation-duration: 0.3s;
+        }
+        
+        :root {
+            --primary: #ff6b35;
+            --primary-dark: #e5522a;
+            --secondary: #004e89;
+            --dark: #1a1a2e;
+            --light: #f7f7f7;
+            --accent: #00d9ff;
+            --text-dark: #2d2d2d;
+            --text-light: #6b6b6b;
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.12);
+            --shadow-lg: 0 10px 40px rgba(0,0,0,0.15);
+            
+            /* Animation timing */
+            --anim-duration: 0.6s;
+            --anim-easing: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: var(--light);
+            overflow-x: hidden;
+        }
+        
+        /* Scroll-driven animations support check */
+        @supports (animation-timeline: scroll()) {
+            .reveal-on-scroll {
+                animation: reveal-up linear both;
+                animation-timeline: view();
+                animation-range: entry 0% cover 30%;
+            }
+            
+            @keyframes reveal-up {
+                from {
+                    opacity: 0;
+                    transform: translateY(50px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+        }
+        
+        /* Accessibility */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            z-index: 100;
+        }
+        
+        .skip-link:focus {
+            top: 0;
+        }
+        
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(26, 26, 46, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        header.scrolled {
+            background: rgba(26, 26, 46, 0.98);
+            box-shadow: var(--shadow-md);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 5%;
+            max-width: 1440px;
+            margin: 0 auto;
+            gap: 1.5rem;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .logo:hover {
+            transform: scale(1.05);
+        }
+        
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: var(--gradient-3);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .logo span {
+            white-space: nowrap;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            margin-left: auto;
+        }
+        
+        .nav-links li {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            position: relative;
+            transition: color 0.3s ease;
+            white-space: nowrap;
+            display: inline-block;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:not(.cta-button):hover::after,
+        .nav-links a:not(.cta-button):focus::after {
+            width: 100%;
+        }
+        
+        .nav-links a:not(.cta-button):hover,
+        .nav-links a:not(.cta-button):focus {
+            color: var(--accent);
+        }
+        
+        .cta-button {
+            background: var(--primary) !important;
+            color: white !important;
+            padding: 0.875rem 1.75rem !important;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+            white-space: nowrap;
+            display: inline-flex !important;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .cta-button::after {
+            display: none !important;
+        }
+        
+        .cta-button:hover,
+        .cta-button:focus {
+            background: var(--primary-dark) !important;
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(255, 107, 53, 0.5);
+        }
+        
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.75rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            flex-shrink: 0;
+        }
+        
+        /* Optional: Quick contact display for large screens */
+        .quick-contact {
+            display: none;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.6rem 1.25rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            transition: background 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            flex-shrink: 0;
+        }
+        
+        .quick-contact:hover {
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .quick-contact i {
+            color: var(--accent);
+            font-size: 1rem;
+        }
+        
+        @media (min-width: 1300px) {
+            .quick-contact {
+                display: flex;
+            }
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, rgba(26, 26, 46, 0.95) 0%, rgba(22, 33, 62, 0.95) 100%),
+                        url('https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            overflow: hidden;
+            padding: 6rem 5% 4rem;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="1" x="50" y="50" fill="rgba(255,255,255,0.03)"/></svg>') repeat;
+            animation: drift 20s linear infinite;
+        }
+        
+        @keyframes drift {
+            from { transform: translateX(0) translateY(0); }
+            to { transform: translateX(100px) translateY(100px); }
+        }
+        
+        .hero-content {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-text h1 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            font-weight: 900;
+            color: white;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            animation: fadeInUp 0.8s ease;
+        }
+        
+        .hero-text .highlight {
+            background: var(--gradient-3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-text p {
+            font-size: clamp(1.1rem, 2vw, 1.3rem);
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+        
+        .credentials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.8s ease 0.3s both;
+        }
+        
+        .credential-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 0.6rem 1rem;
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .credential-badge i {
+            color: var(--accent);
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+        
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.1rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: var(--shadow-md);
+        }
+        
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover,
+        .btn-secondary:focus {
+            background: white;
+            color: var(--dark);
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* About Section */
+        .about {
+            padding: 6rem 5%;
+            background: white;
+        }
+        
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .about-image {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            aspect-ratio: 4/3;
+            background: var(--gradient-1);
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .experience-badge {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: var(--primary);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(10px);
+        }
+        
+        .experience-badge .number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            line-height: 1;
+            display: block;
+        }
+        
+        .experience-badge .text {
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: block;
+        }
+        
+        .about-content h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .about-content .subtitle {
+            font-size: 1.3rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .about-content p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .certifications {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .cert-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem;
+            background: var(--light);
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .cert-item i {
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+        
+        .cert-item span {
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+        
+        /* Features Section */
+        .features {
+            padding: 6rem 5%;
+            background: var(--light);
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+        
+        .section-header h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .section-header p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-3);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover,
+        .feature-card:focus-within {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .feature-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient-3);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card p {
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 6rem 5%;
+            background: white;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover,
+        .service-card:focus-within {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .service-image {
+            height: 250px;
+            background: var(--gradient-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.5) 100%);
+        }
+        
+        .service-card:nth-child(1) .service-image {
+            background-image: url('https://images.unsplash.com/photo-1581244277943-fe4a9c777189?w=800&q=80');
+        }
+        
+        .service-card:nth-child(2) .service-image {
+            background-image: url('https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&q=80');
+        }
+        
+        .service-card:nth-child(3) .service-image {
+            background-image: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80');
+        }
+        
+        .service-image .icon-overlay {
+            position: relative;
+            z-index: 2;
+            font-size: 5rem;
+            color: white;
+            text-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
+        }
+        
+        .service-content {
+            padding: 2rem;
+        }
+        
+        .service-content h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin-bottom: 1rem;
+        }
+        
+        .service-content p {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.7;
+        }
+        
+        .service-content ul {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-content li {
+            padding: 0.5rem 0;
+            color: var(--text-light);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .service-content li::before {
+            content: '✓';
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            padding: 6rem 5%;
+            background: var(--light);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .quote-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            opacity: 0.2;
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: var(--gradient-3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        
+        .author-info .name {
+            font-weight: 700;
+            color: var(--dark);
+            display: block;
+        }
+        
+        .author-info .location {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+        
+        .stars {
+            color: #ffc107;
+            margin-bottom: 1rem;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 6rem 5%;
+            background: linear-gradient(135deg, var(--secondary) 0%, var(--dark) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(0, 217, 255, 0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        .cta-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-content h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-content p {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 2.5rem;
+        }
+        
+        .cta-content .hero-buttons {
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-content .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .cta-content .btn-secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+        
+        .cta-content .btn-secondary:hover,
+        .cta-content .btn-secondary:focus {
+            background: white;
+            color: var(--dark);
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 4rem 5% 2rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-section a:hover,
+        .footer-section a:focus {
+            color: var(--accent);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: rgba(255,255,255,0.6);
+        }
+        
+        /* Responsive Design - Mobile First */
+        @media (max-width: 991px) {
+            nav {
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: rgba(26, 26, 46, 0.98);
+                backdrop-filter: blur(10px);
+                flex-direction: column;
+                justify-content: flex-start;
+                padding: 3rem 2rem;
+                gap: 2rem;
+                transition: left 0.3s ease;
+                overflow-y: auto;
+            }
+            
+            .nav-links.active {
+                left: 0;
+            }
+            
+            .nav-links li {
+                width: 100%;
+                text-align: center;
+            }
+            
+            .nav-links a {
+                font-size: 1.25rem;
+                padding: 0.5rem 0;
+            }
+            
+            .nav-links .cta-button {
+                width: 100%;
+                justify-content: center;
+                padding: 1rem 2rem !important;
+                font-size: 1.1rem;
+            }
+            
+            .menu-toggle {
+                display: block;
+            }
+        }
+        
+        @media (max-width: 767px) {
+            nav {
+                padding: 1rem 5%;
+            }
+            
+            .logo {
+                font-size: 1.3rem;
+            }
+            
+            .logo-icon {
+                width: 40px;
+                height: 40px;
+            }
+            
+            .nav-links {
+                top: 70px;
+                height: calc(100vh - 70px);
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .btn-primary, .btn-secondary {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .credentials {
+                justify-content: center;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+        /* Better tablet breakpoint */
+        @media (min-width: 992px) and (max-width: 1299px) {
+            nav {
+                padding: 1.25rem 4%;
+            }
+            
+            .nav-links {
+                gap: 1.5rem;
+            }
+            
+            .nav-links a {
+                font-size: 0.95rem;
+            }
+            
+            .cta-button {
+                padding: 0.75rem 1.5rem !important;
+                font-size: 0.95rem;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .about-container {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .hero-content {
+                grid-template-columns: 1.2fr 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        /* Animation classes - Fallback for browsers without scroll-timeline */
+        @supports not (animation-timeline: scroll()) {
+            .fade-in {
+                opacity: 0;
+                transform: translateY(30px);
+                transition: opacity var(--anim-duration) var(--anim-easing), 
+                            transform var(--anim-duration) var(--anim-easing);
+            }
+            
+            .fade-in.visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Focus styles for accessibility */
+        a:focus, button:focus {
+            outline: 3px solid var(--accent);
+            outline-offset: 2px;
+        }
+        
+        /* Scroll to Top Button */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(100px);
+            transition: all 0.3s var(--anim-easing);
+        }
+        
+        .scroll-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .scroll-to-top:hover,
+        .scroll-to-top:focus {
+            background: var(--primary-dark);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(255, 107, 53, 0.5);
+        }
+        
+        .scroll-to-top:active {
+            transform: translateY(-2px);
+        }
+        
+        /* Video Section */
+        .video-section {
+            padding: 6rem 5%;
+            background: white;
+        }
+        
+        .video-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-lg);
+            aspect-ratio: 16/9;
+            background: var(--dark);
+        }
+        
+        .video-container video,
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.3) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            z-index: 2;
+        }
+        
+        .video-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .video-overlay:hover {
+            background: linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 100%);
+        }
+        
+        .play-button {
+            width: 80px;
+            height: 80px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 40px rgba(255, 107, 53, 0.4);
+            transition: all 0.3s ease;
+        }
+        
+        .play-button i {
+            font-size: 2rem;
+            color: white;
+            margin-left: 4px;
+        }
+        
+        .video-overlay:hover .play-button {
+            transform: scale(1.1);
+            box-shadow: 0 15px 50px rgba(255, 107, 53, 0.6);
+        }
+        
+        /* Gallery Section */
+        .gallery {
+            padding: 6rem 5%;
+            background: var(--light);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            box-shadow: var(--shadow-sm);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .gallery-item-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);
+            padding: 1.5rem;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover .gallery-item-overlay {
+            transform: translateY(0);
+        }
+        
+        .gallery-item-overlay h4 {
+            color: white;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+        
+        .gallery-item-overlay p {
+            color: rgba(255,255,255,0.9);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 767px) {
+            .scroll-to-top {
+                bottom: 20px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                font-size: 1.3rem;
+            }
+        }
+        
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+            
+            /* Disable View Transitions for reduced motion */
+            ::view-transition-group(*),
+            ::view-transition-old(*),
+            ::view-transition-new(*) {
+                animation: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header id="header">
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="Mike Johnson HVAC Home">
+                <div class="logo-icon"><i class="fas fa-tools"></i></div>
+                <span>Mike Johnson</span>
+            </a>
+            <div class="quick-contact" aria-hidden="true">
+                <i class="fas fa-phone-alt"></i>
+                <span>(555) 123-4567</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:555-123-4567" class="cta-button" aria-label="Call Mike at 555-123-4567">
+                    <i class="fas fa-phone-alt"></i> 
+                    <span>Call Now</span>
+                </a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span id="menuIcon">☰</span>
+            </button>
+        </nav>
+    </header>
+    
+    <main id="main">
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>LaFollette's Trusted <span class="highlight">HVAC & Handyman</span></h1>
+                    <p>I'm Mike Johnson, and I bring 15+ years of hands-on experience to every job. Licensed, certified, and dedicated to keeping your home comfortable year-round.</p>
+                    <div class="credentials">
+                        <div class="credential-badge">
+                            <i class="fas fa-certificate"></i>
+                            <span>EPA Certified</span>
+                        </div>
+                        <div class="credential-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Licensed & Insured</span>
+                        </div>
+                        <div class="credential-badge">
+                            <i class="fas fa-clock"></i>
+                            <span>15+ Years Experience</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary"><i class="fas fa-file-invoice"></i> Get Free Quote</a>
+                        <a href="tel:555-123-4567" class="btn-secondary"><i class="fas fa-phone-volume"></i> Emergency Service</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="about reveal-on-scroll" id="about">
+            <div class="about-container">
+                <div class="about-image">
+                    <!-- Placeholder for technician photo -->
+                    <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=800&q=80" alt="Mike Johnson, HVAC and handyman professional" loading="lazy">
+                    <div class="experience-badge">
+                        <span class="number">15+</span>
+                        <span class="text">Years Experience</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2>About Mike Johnson</h2>
+                    <p class="subtitle">Your Local HVAC & Handyman Expert</p>
+                    <p>Born and raised right here in LaFollette, I've been serving our community with honest, reliable home services for over 15 years. I started this business because I believe everyone deserves quality work at fair prices—no upselling, no hidden fees, just straightforward solutions.</p>
+                    <p>Whether it's a broken AC in the middle of summer or a leaky faucet that won't quit, I treat every home like it's my own. I'm not happy until you're completely satisfied with the work.</p>
+                    <div class="certifications">
+                        <div class="cert-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>EPA Section 608 Certified</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>TN Licensed Contractor</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Fully Insured</span>
+                        </div>
+                        <div class="cert-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Background Checked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="features reveal-on-scroll" id="features">
+            <div class="section-header">
+                <h2>Why Choose Local?</h2>
+                <p>The advantages of working with an experienced solo professional</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-user"></i></div>
+                    <h3>Direct Communication</h3>
+                    <p>No middlemen or dispatchers. When you call, you talk directly to me—the person doing the work.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Fast Response</h3>
+                    <p>Available 24/7 for emergencies with same-day service. I'm local, so I get to you quickly.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Personal Service</h3>
+                    <p>I personally handle every job from start to finish. Your satisfaction is my reputation.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <h3>Honest Pricing</h3>
+                    <p>Fair, upfront pricing with no hidden fees. I'll always explain what needs to be done and why.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Quality Workmanship</h3>
+                    <p>I take pride in every job. If my name's on it, it's done right—guaranteed.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Community Focused</h3>
+                    <p>Your neighbors are my neighbors. I'm invested in our community's success.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="services reveal-on-scroll" id="services">
+            <div class="section-header">
+                <h2>Services I Offer</h2>
+                <p>Comprehensive home services you can count on</p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <span class="icon-overlay"><i class="fas fa-snowflake"></i></span>
+                    </div>
+                    <div class="service-content">
+                        <h3>HVAC Services</h3>
+                        <p>Complete heating and cooling solutions to keep you comfortable all year.</p>
+                        <ul>
+                            <li>AC Repair & Installation</li>
+                            <li>Furnace Service & Replacement</li>
+                            <li>Heat Pump Service</li>
+                            <li>Duct Cleaning & Repair</li>
+                            <li>Preventive Maintenance Plans</li>
+                            <li>Emergency Repairs Available</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <span class="icon-overlay"><i class="fas fa-hammer"></i></span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Handyman Services</h3>
+                        <p>Professional repairs and improvements for every room in your home.</p>
+                        <ul>
+                            <li>Plumbing Repairs & Fixtures</li>
+                            <li>Electrical Work (Licensed)</li>
+                            <li>Carpentry & Trim Work</li>
+                            <li>Drywall Repair & Painting</li>
+                            <li>Door & Window Installation</li>
+                            <li>General Home Repairs</li>
+                        </ul>
+                    </div>
+                </article>
+                
+                <article class="service-card fade-in">
+                    <div class="service-image">
+                        <span class="icon-overlay"><i class="fas fa-home"></i></span>
+                    </div>
+                    <div class="service-content">
+                        <h3>Home Maintenance</h3>
+                        <p>Keep your home running smoothly with regular maintenance services.</p>
+                        <ul>
+                            <li>Seasonal HVAC Tune-Ups</li>
+                            <li>Filter Replacements</li>
+                            <li>System Safety Inspections</li>
+                            <li>Preventive Maintenance</li>
+                            <li>Annual Service Plans</li>
+                            <li>Pre-Purchase Inspections</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section class="testimonials reveal-on-scroll" id="testimonials">
+            <div class="section-header">
+                <h2>What My Customers Say</h2>
+                <p>Real reviews from real neighbors in LaFollette</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Mike saved us on the hottest day of summer when our AC died! He came out the same day and had us cool again within two hours. Honest pricing and great work. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JW</div>
+                        <div class="author-info">
+                            <span class="name">Jennifer Wilson</span>
+                            <span class="location">LaFollette, TN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Finally found someone who doesn't try to sell me stuff I don't need. Mike diagnosed the problem, fixed it right, and charged a fair price. He's now my go-to guy for everything!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RD</div>
+                        <div class="author-info">
+                            <span class="name">Robert Davis</span>
+                            <span class="location">Jacksboro, TN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <i class="fas fa-quote-right quote-icon"></i>
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Professional, friendly, and really knows his stuff. Mike installed our new furnace and it works perfectly. He even gave us tips on how to save on our energy bill. Great experience!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ST</div>
+                        <div class="author-info">
+                            <span class="name">Sarah Thompson</span>
+                            <span class="location">LaFollette, TN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="video-section reveal-on-scroll" id="video">
+            <div class="section-header">
+                <h2>See My Work in Action</h2>
+                <p>Watch how I approach every job with professionalism and care</p>
+            </div>
+            <div class="video-container">
+                <video 
+                    id="introVideo"
+                    poster="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1200&q=80"
+                    preload="metadata"
+                    controls
+                    aria-label="Introduction video showing HVAC and handyman work">
+                    <!-- Fallback: Using a sample video URL - replace with actual video -->
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                    <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.webm" type="video/webm">
+                    Your browser doesn't support HTML5 video. <a href="tel:555-123-4567">Call me to learn more about my services!</a>
+                </video>
+                <div class="video-overlay" id="videoOverlay">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="gallery reveal-on-scroll" id="gallery">
+            <div class="section-header">
+                <h2>Recent Projects</h2>
+                <p>Quality work I'm proud to share with you</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?w=800&q=80" 
+                        alt="Modern HVAC system installation in residential home"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>New HVAC Installation</h4>
+                        <p>Complete system upgrade for improved efficiency</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=800&q=80" 
+                        alt="Air conditioning unit maintenance and repair"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>AC Repair & Maintenance</h4>
+                        <p>Keeping systems running at peak performance</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1504148455328-c376907d081c?w=800&q=80" 
+                        alt="Plumbing fixture installation and repair work"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>Plumbing Services</h4>
+                        <p>Expert fixture installation and repairs</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?w=800&q=80" 
+                        alt="Interior home improvement and carpentry work"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>Interior Improvements</h4>
+                        <p>Carpentry and finishing work</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80" 
+                        alt="Electrical work and fixture installation"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>Electrical Work</h4>
+                        <p>Licensed electrical repairs and upgrades</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item fade-in">
+                    <img 
+                        src="https://images.unsplash.com/photo-1631545804407-0c33197e3b07?w=800&q=80" 
+                        alt="Home maintenance and preventive service"
+                        loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <h4>Preventive Maintenance</h4>
+                        <p>Regular service to avoid costly repairs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="cta-section" id="contact">
+            <div class="cta-content">
+                <h2>Need Help Today?</h2>
+                <p>Call or text me directly for a free estimate or emergency service</p>
+                <div class="hero-buttons">
+                    <a href="tel:555-123-4567" class="btn-primary"><i class="fas fa-phone-alt"></i> (555) 123-4567</a>
+                    <a href="sms:555-123-4567" class="btn-secondary"><i class="fas fa-comment"></i> Text Me</a>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span><i class="fas fa-clock"></i></span>
+                        <span>24/7 Emergency Service</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        <span>Serving LaFollette & Surrounding Areas</span>
+                    </div>
+                    <div class="contact-item">
+                        <span><i class="fas fa-file-invoice-dollar"></i></span>
+                        <span>Free Estimates</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Mike Johnson HVAC & Handyman</h3>
+                <p>Licensed, certified, and locally owned. Serving LaFollette and surrounding communities with pride since 2010.</p>
+                <p style="margin-top: 1rem;"><strong>License #:</strong> TN-123456</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#about">About Mike</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:555-123-4567" style="display: inline; color: var(--accent);">(555) 123-4567</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:mike@mikejohnsonhvac.com" style="display: inline; color: var(--accent);">mike@mikejohnsonhvac.com</a></p>
+                <p><i class="fas fa-clock"></i> Emergency: Available 24/7</p>
+            </div>
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <p>LaFollette, Jacksboro, Caryville, Jellico, and surrounding Campbell County communities.</p>
+                <p style="margin-top: 1rem;"><strong>Same-day service</strong> available in most areas!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mike Johnson HVAC & Handyman. All rights reserved. | Licensed & Insured in Tennessee</p>
+        </div>
+    </footer>
+    
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top of page">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script>
+        // Check for View Transitions API support
+        const supportsViewTransitions = 'startViewTransition' in document;
+        
+        // Scroll to Top Button
+        const scrollToTopBtn = document.getElementById('scrollToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        }, { passive: true });
+        
+        scrollToTopBtn.addEventListener('click', () => {
+            if (supportsViewTransitions) {
+                document.startViewTransition(() => {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                });
+            } else {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            }
+        });
+        
+        // Video Player
+        const video = document.getElementById('introVideo');
+        const videoOverlay = document.getElementById('videoOverlay');
+        
+        if (videoOverlay && video) {
+            videoOverlay.addEventListener('click', () => {
+                video.play();
+                videoOverlay.classList.add('hidden');
+            });
+            
+            video.addEventListener('pause', () => {
+                if (video.currentTime < video.duration - 0.5) {
+                    videoOverlay.classList.remove('hidden');
+                }
+            });
+            
+            video.addEventListener('ended', () => {
+                videoOverlay.classList.remove('hidden');
+            });
+        }
+        
+        // Enhanced navigation with View Transitions
+        if (supportsViewTransitions) {
+            document.addEventListener('click', (e) => {
+                const link = e.target.closest('a[href^="#"]');
+                if (link && link.getAttribute('href') !== '#' && link.getAttribute('href') !== '#home') {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href');
+                    const target = document.querySelector(targetId);
+                    
+                    if (target) {
+                        document.startViewTransition(() => {
+                            const headerOffset = 80;
+                            const elementPosition = target.getBoundingClientRect().top;
+                            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                            
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                        });
+                    }
+                }
+            });
+        }
+        
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        const menuIcon = document.getElementById('menuIcon');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const isExpanded = navLinks.classList.contains('active');
+            menuToggle.setAttribute('aria-expanded', isExpanded);
+            menuIcon.textContent = isExpanded ? '✕' : '☰';
+        });
+        
+        // Close mobile menu when link is clicked
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuIcon.textContent = '☰';
+            });
+        });
+        
+        // Header scroll effect
+        const header = document.getElementById('header');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        }, { passive: true });
+        
+        // Intersection Observer for fade-in animations (fallback for no scroll-timeline support)
+        const supportsScrollTimeline = CSS.supports('animation-timeline: scroll()');
+        
+        if (!supportsScrollTimeline) {
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all fade-in elements
+            document.querySelectorAll('.fade-in').forEach(el => {
+                observer.observe(el);
+            });
+        }
+        
+        // Smooth scroll for anchor links (fallback if View Transitions not supported)
+        if (!supportsViewTransitions) {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href !== '#home') {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            const headerOffset = 80;
+                            const elementPosition = target.getBoundingClientRect().top;
+                            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                            
+                            window.scrollTo({
+                                top: offsetPosition,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+                });
+            });
+        }
+        
+        // Add keyboard navigation support
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuIcon.textContent = '☰';
+                menuToggle.focus();
+            }
+        });
+        
+        // Track page visibility for performance
+        document.addEventListener('visibilitychange', () => {
+            const heroAnimation = document.querySelector('.hero::before');
+            if (document.hidden) {
+                // Pause animations when page is hidden
+                if (heroAnimation) {
+                    heroAnimation.style.animationPlayState = 'paused';
+                }
+            } else {
+                // Resume animations when page is visible
+                if (heroAnimation) {
+                    heroAnimation.style.animationPlayState = 'running';
+                }
+            }
+        });
+        
+        // Optimize hover interactions
+        const interactiveElements = document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"], a[href^="sms:"]');
+        interactiveElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                element.style.willChange = 'transform';
+            }, { passive: true });
+            
+            element.addEventListener('mouseleave', () => {
+                element.style.willChange = 'auto';
+            }, { passive: true });
+        });
+        
+        // Performance: Use passive event listeners
+        const passiveSupported = (() => {
+            let passive = false;
+            try {
+                const options = {
+                    get passive() {
+                        passive = true;
+                        return false;
+                    }
+                };
+                window.addEventListener('test', null, options);
+                window.removeEventListener('test', null, options);
+            } catch (err) {
+                passive = false;
+            }
+            return passive;
+        })();
+        
+        // Log if modern features are supported (dev info - remove in production)
+        console.log('View Transitions API:', supportsViewTransitions ? '✓ Supported' : '✗ Not supported (using fallback)');
+        console.log('Scroll Timeline:', supportsScrollTimeline ? '✓ Supported' : '✗ Not supported (using fallback)');
+        console.log('Passive Events:', passiveSupported ? '✓ Supported' : '✗ Not supported');
+    </script>
+</body>
+</html>
